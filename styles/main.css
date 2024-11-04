@@ -1,3 +1,12 @@
+.pace-btn{
+  font-family:Impact, 'Arial Narrow Bold';
+  background-color: rgb(220, 207, 191);
+  font-size: 20px;
+  border: 2px solid;
+  padding: 12px 20px;
+  border-radius: 14px;
+  cursor: pointer;
+}
 #gameContainer{
   text-align: center;
 }
@@ -15,4 +24,8 @@
   padding: 12px 20px;
   border-radius: 14px;
   cursor: pointer;
+}
+header{
+  text-align:  center;
+  margin-bottom: 20px;
 }

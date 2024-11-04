@@ -26,6 +26,7 @@ let snake = [
 window.addEventListener('keydown', changeDirection);
 resetBtn.addEventListener('click', resetGame);
 
+
 gameStart();
 
 function gameStart(){
@@ -45,7 +46,7 @@ function nextTick(){
       drawSnake();
       checkGameOver();
       nextTick();
-    }, 1000)
+    }, 200)
   }else{
     displayGameOver();
   }
